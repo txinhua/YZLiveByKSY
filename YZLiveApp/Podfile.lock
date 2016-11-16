@@ -1,0 +1,51 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - Bugly (2.4.2)
+  - DRDNetworking (0.6.1):
+    - AFNetworking (~> 3.0.0)
+  - GPUImage (0.1.7)
+  - libksygpulive/KSYGPUResource (1.8.5)
+  - libksygpulive/libksygpulive (1.8.5):
+    - GPUImage
+  - MJExtension (3.0.13)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+
+DEPENDENCIES:
+  - Bugly
+  - DRDNetworking
+  - GPUImage
+  - libksygpulive/KSYGPUResource (from `Pods`)
+  - libksygpulive/libksygpulive (from `Pods`)
+  - MJExtension (~> 3.0.13)
+  - SDWebImage (~> 3.7.4)
+
+EXTERNAL SOURCES:
+  libksygpulive:
+    :path: Pods
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  Bugly: b09cd3c7e54048a0e079be88a7a99610f14eab8f
+  DRDNetworking: ad88142e046e1577a539210a562aafae04aea41a
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  libksygpulive: 29712e1ece19e56356f29f9903a1798b7863b022
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+
+COCOAPODS: 0.39.0

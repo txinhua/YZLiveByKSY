@@ -1,0 +1,1 @@
+../../../prebuilt/include/KSYStreamer/KSYSpecialEffects.h

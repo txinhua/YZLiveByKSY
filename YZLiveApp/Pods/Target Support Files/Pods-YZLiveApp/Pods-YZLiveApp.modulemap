@@ -1,0 +1,6 @@
+framework module Pods_YZLiveApp {
+  umbrella header "Pods-YZLiveApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,23 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+platform :ios, '7.0'
+inhibit_all_warnings!
+use_frameworks!
+
+target 'YZLiveApp' do
+  pod 'SDWebImage', '~> 3.7.4’
+  pod 'MJExtension', '~> 3.0.13'
+  pod 'DRDNetworking'
+  pod 'Bugly'
+  pod 'GPUImage'
+  pod 'libksygpulive/KSYGPUResource', :path => 'Pods'
+  pod 'libksygpulive/libksygpulive', :path => 'Pods'
+  
+end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        puts "!!!! #{target.name}"
+    end
+end
